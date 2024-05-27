@@ -1,0 +1,177 @@
+.section-1-outer{
+background-color: #F9FEFF;
+border-bottom: 5px solid #C2F0FF;
+}
+.section-1-outer .navbar .navbar-brand{
+padding-top: 8px;
+}
+
+.section-1-outer .navbar .navbar-toggler{ 
+background-color: #5A9E3B;
+color: #fff;
+padding: .25rem .75rem;;
+border-radius: 5px;
+margin-right: 25px;
+}   
+
+/* .section-1-outer .navbar .navbar-toggler-icon{
+background-image: none;
+} */
+.section-1-outer .navbar .nav-link{
+padding: 10px 27px;
+font-size: 18px;
+display: block;
+color: #5A9E3B
+}
+.section-1-outer .navbar .nav-link:hover{
+background-color: #5A9E3B;
+color: #fff;
+}
+/* Section 2 Start */
+.section-2-outer{
+padding: 40px 0 ;
+} 
+.section-2-outer .breadcrumb .breadcrumb-item{
+font-size: 18px;
+font-weight: 500;
+color: #000;
+margin-bottom: 10px;
+}
+.section-2-outer .breadcrumb  .active{
+color: #5A9E3B;
+}
+
+/* .section-2-outer .image-section{
+border: 10px solid #F6F6F6;
+} */
+.section-2-outer .image-section img{
+width: 100%;
+}
+/* Section 3 Start */
+.section-3-outer {
+padding: 20px 0;
+}
+.section-3-outer h2{
+font-weight: 700;
+font-size: 34px;
+}
+.section-3-outer h4{
+font-weight: 600;
+font-size: 25px;
+margin: 25px 0px;
+}
+.section-3-outer p{
+font-size: 19px;
+margin: 15px 0px;
+}
+
+.section-3-outer ul{
+padding: 0 ;
+}
+.section-3-outer ul li {
+padding: 0 0 0 10px ;
+margin: 0 0 0 18px;
+font-size: 18px;
+font-weight: 500;
+color: #000000;;
+}
+.section-3-outer ul li::marker{
+content: "\2714";
+font-size: 22px;
+color: #35beec ;
+}
+
+/* Section 3 End */
+/* *********************************** */
+/* Section 4 Start1 */
+.section-4-outer h4{
+font-size: 25px;
+font-weight: 600;
+padding-bottom: 20px;
+}
+.section-4-outer h5{
+font-size: 21px;
+font-weight: 600;
+padding: 0;
+margin: 25px 0  ;
+}
+.section-4-outer p{
+font-size: 18px;
+font-weight: 500;
+}
+
+.section-4-outer p:nth-child(5){
+font-size: 21px;
+font-weight: 600;
+}
+
+.section-4-outer h4:nth-child(6){
+color: #35BFEC;;
+font-size: 24px;
+font-weight: 600
+}
+.section-4-outer h4:nth-child(6) span{
+color: #000;
+display: block;
+font-weight: 700;
+}
+
+/* Secton 4 End */
+
+/* ****************************************** */
+
+
+@media screen and (max-width: 991px) and (min-width: 320px) {
+.section-1-outer .navbar .nav-link{
+font-size: 15px;
+padding: 5px 10px;
+}   
+.section-2-outer{
+padding: 20px 0;
+}
+.section-2-outer .breadcrumb .breadcrumb-item{
+font-size: 15px;
+font-weight: 600;
+margin-bottom: 0;
+}
+.section-3-outer h2{
+font-size: 20px;
+font-weight: 600;
+}
+.section-3-outer h4{
+font-size: 17px;
+font-weight: 500;
+}
+.section-3-outer p{
+font-size: 14px;
+}
+.section-3-outer ul li{
+font-size: 14px;
+font-weight: 600;
+padding: 5px 0 5px 7px;
+margin: 0 0 0 13px;
+}
+.section-3-outer ul li::marker{
+content: "\2714";
+font-size: 16px;
+color: #35beec ;
+}
+.section-4-outer h4{
+    font-size: 18px
+}
+.section-4-outer p{
+font-size: 14px;
+}
+.section-4-outer h5{
+    font-size: 17px
+}
+.section-4-outer p:nth-child(5){
+font-size: 16px;
+}
+.section-4-outer h4:nth-child(6){
+font-size: 19px;
+}
+
+
+
+}
